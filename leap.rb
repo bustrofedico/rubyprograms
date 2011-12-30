@@ -12,8 +12,9 @@ end
 puts "Enter a year to check if it is a leap year"
 the_year = gets.to_i
 output_message = "Year %i is a leap year and there are %i minutes in this year"
-if leap_year?(the_year)
+
+if leap_year?(the_year) 
 	puts sprintf(output_message,the_year,MINS_IN_LEAP)
-	else
+	else	
 	puts sprintf(output_message,the_year,MINS_IN_NON_LEAP)	
 end
