@@ -1,5 +1,3 @@
 s = 'key=value'
-a = s.split("=")
-s1 = a[0]
-s2 = a[1]
+s1,s2 = s.split("=")
 puts s1, s2
